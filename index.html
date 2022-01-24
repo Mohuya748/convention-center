@@ -11,7 +11,7 @@
     <!-- bootstrap css link  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- font awesoome -->
+    <!-- font awesome -->
     <script src="https://kit.fontawesome.com/1d85e9680c.js" crossorigin="anonymous"></script>
     <!-- favicon  -->
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
@@ -20,24 +20,27 @@
 
 <body class="m-0">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!----------navbar----------->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ms-2 me-2">
             <div class="container">
-                <a class="navbar-brand mb-0 h1" href="#">White-Hall Convention Center</a>
+                <a class="navbar-brand" href="#">
+                    White-Hall Convention Center
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ms-auto">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="#">About us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#">Contact us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Subscribe</a>
@@ -46,6 +49,7 @@
                 </div>
             </div>
         </nav>
+        <!---------carousel part-------->
         <section class="container-fluid">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -86,7 +90,10 @@
                             <p class="header-paragraph">We welcome you warmly to make your function more gorgeous at
                                 very
                                 reasonable price. Contact and bbok us for your next occasion. Hurry UP!!</p>
-                            <a href="https://www.google.com/" class="conv-button" target="_blank">BOOK NOW</a>
+                            <div>
+                                <a href="https://www.google.com/" class="conv-button" target="_blank">BOOK NOW</a>
+                            </div>
+
                         </div>
                     </div>
 
@@ -108,28 +115,29 @@
         </section>
     </header>
     <main class="my-5">
-        <section class="container">
+        <!--------------second part--------------->
+        <section class="container position-relative">
             <div class="row g-5 justify-content-center align-items-center ">
                 <div class="col-sm-12 col-md-6 col-lg-6 text-center ">
                     <img src="images/wedding.png" alt="weddiing" class="w-100">
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 ">
                     <h1 class="title">Every moment is Precious</h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis rerum pariatur exercitationem
-                        mollitia consequatur vero. </p>
+                    <p>Every occasion is so memorable in someone's life. To make this more beautiful, we are there for
+                        you always. To know more about our services hit the button explore now.</p>
                     <a href="https://www.google.com/" class="conv-button" target="_blank">Explore Now</a>
                 </div>
-            </div>
-            <div class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
-                <div class="d-flex">
-                    <div class="toast-body">
-                        Hello, world! This is a toast message.
+                <div class="toast show align-items-center position-absolute top-0 end-0" role="alert"
+                    aria-live="assertive" aria-atomic="true">
+                    <div class="d-flex">
+                        <div class="toast-body"> </i> <i class="fas fa-gift"></i> 20% off on next booking!</div>
+                        <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast"
+                            aria-label="Close"></button>
                     </div>
-                    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast"
-                        aria-label="Close"></button>
                 </div>
-            </div>
         </section>
+
+        <!-------------- Our Pages section -------------->
         <section class="package-section">
             <div>
                 <h2 class="text-center my-5">Our package</h2>
@@ -146,7 +154,7 @@
                         <p><i class="fas fa-check-circle"></i>Decoration design</p>
                         <p><i class="fas fa-check-circle"></i>Per day bill</p>
                         <div class="text-center my-4">
-                            <a class="button fw-bold" href="" target="_blank">Choose plan</a>
+                            <a class="button fw-bold" href="#" target="_blank">Choose plan</a>
                         </div>
                     </div>
                 </div>
@@ -162,7 +170,7 @@
                         <p><i class="fas fa-check-circle"></i>Decoration design</p>
                         <p><i class="fas fa-check-circle"></i>Billed as shift</p>
                         <div class="text-center my-4">
-                            <a class="button fw-bold" href="" target="_blank">Choose plan</a>
+                            <a class="button fw-bold" href="#" target="_blank">Choose plan</a>
                         </div>
                     </div>
                 </div>
@@ -179,7 +187,7 @@
                         <p><i class="fas fa-check-circle"></i>Premium Decoration</p>
                         <p><i class="fas fa-check-circle"></i>Pay as plan</p>
                         <div class="text-center my-4">
-                            <a class="button fw-bold" href="" target="_blank">Choose plan</a>
+                            <a class="button fw-bold" href="#" target="_blank">Choose plan</a>
                         </div>
                     </div>
                 </div>
@@ -195,18 +203,18 @@
                         <p><i class="fas fa-check-circle"></i>Premium Decoration</p>
                         <p><i class="fas fa-check-circle"></i>Pay as plan</p>
                         <div class="text-center my-4">
-                            <a class="button fw-bold" href="" target="_blank">Choose plan</a>
+                            <a class="button fw-bold" href="#" target="_blank">Choose plan</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!--------------happy client part-------------->
         <section class="container">
             <div>
                 <h2 class="text-center my-5">Happy Clients says</h2>
             </div>
             <div class="row row-cols-1 row-cols-md-3 g-5 ">
-
                 <div class="col text-center shadow-lg">
                     <div class="card h-100 border-0">
                         <div class=" card-body">
@@ -217,13 +225,13 @@
                             <h5 class="card-title">MR. Ahuja</h5>
                             <p>banker</p>
                         </div>
-
                     </div>
                 </div>
                 <div class="col text-center shadow-lg">
                     <div class="card h-100 border-0">
                         <div class=" card-body">
-                            <p class="card-text">Arranged two parties there. they are very professional at work. keep up the good work. Best of luck!</p>
+                            <p class="card-text">Arranged two parties there. they are very professional at work. keep up
+                                the good work. Best of luck!</p>
                         </div>
                         <div>
                             <img src="images/person 2.png" alt="..." style="width: 100px; height: 100px;">
@@ -237,7 +245,8 @@
                 <div class="col text-center rounded-3 shadow-lg">
                     <div class="card h-100 border-0">
                         <div class=" card-body">
-                            <p class="card-text">Highly recommended for the one who wants to make their event organized in a reasonable price. Love their work!</p>
+                            <p class="card-text">Highly recommended for the one who wants to make their event organized
+                                in a reasonable price. Love their work!</p>
                         </div>
                         <div>
                             <img src="images/person 3.png" alt="..." style="width: 100px; height: 100px;">
@@ -248,9 +257,9 @@
                     </div>
                 </div>
             </div>
-
-            </div>
         </section>
+
+        <!-------------- Accordion part------------->
         <section class="container">
             <div>
                 <h2 class="text-center my-5">Frequently Asked Questions</h2>
@@ -262,13 +271,17 @@
                         <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                What’s the difference between event design and event planning? 
+                                What’s the difference between event design and event planning?
                             </button>
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                Event design encompasses the more creative side of event management. While a planner focuses on organization, we focus on the decor of the event.And Event planning sounds glamorous, doesn’t it? Attending fun, themed events ranging from weddings to corporate banquets. The planning process seems exciting and thrilling for somebody new to the business.
+                                Event design encompasses the more creative side of event management. While a planner
+                                focuses on organization, we focus on the decor of the event.And Event planning sounds
+                                glamorous, doesn’t it? Attending fun, themed events ranging from weddings to corporate
+                                banquets. The planning process seems exciting and thrilling for somebody new to the
+                                business.
                             </div>
                         </div>
                     </div>
@@ -282,35 +295,38 @@
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                               One should start planning a event a long time earlier. and for this event you have to book a venue. and exactly for that we are here to serve you. so book us asap.
+                                One should start planning a event a long time earlier. and for this event you have to
+                                book a venue. and exactly for that we are here to serve you. so book us asap.
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item m-2">
                         <h2 class="accordion-header" id="headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
                                 How do you keep budgets on track?
                             </button>
                         </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                               You can keep your budget on track by check our website check the option expense. and you will get the day to day budget track.
+                                You can keep your budget on track by check our website check the option expense. and you
+                                will get the day to day budget track.
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item m-2">
                         <h2 class="accordion-header" id="headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
                                 What is your refund and cancellation policy?
                             </button>
                         </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                               if you want to cancel your reservation by 1 month earlier, you will get 100% refund and after that you well get only 80% refund.
+                                if you want to cancel your reservation by 1 month earlier, you will get 100% refund and
+                                after that you well get only 80% refund.
                             </div>
                         </div>
                     </div>
@@ -319,25 +335,21 @@
                     <img src="images/people.png" alt="weddiing" class="w-100">
                 </div>
             </div>
-
         </section>
-
-       
     </main>
+    <!-------------- newsletter -------------->
     <section class="newsletter-banner newsletter-content d-flex justify-content-center align-items-center p-5">
         <div class="newsletter-content text-center">
             <h1>SUBSCRIBE TO OUR NEWSLETTER</h1>
             <p>To get 10% off on all products subscribe now!!</p>
-                <input type="email" placeholder="enter your email for subscribe" class="newsletter-emai text-center  ">
-                <div class="my-3">
-                    <a href="" class="conv-button">Subscribe</a>
-                </div>
-                
-           
+            <input type="email" placeholder="enter your email for subscribe" class="newsletter-emai text-center  ">
+            <div class="my-3">
+                <a href="" class="conv-button">Subscribe</a>
+            </div>
         </div>
-       
     </section>
 
+    <!-------------- footer------------->
     <footer class="bg-dark">
         <div class="container p-3">
             <div class="d-flex flex-column  flex-md-row  justify-content-between align-items-center"
@@ -359,6 +371,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+
+    <script>
+        window.onload = (e) => {
+            let myToast = document.querySelector('.toast');
+            let bsToast = new bootstrap.Toast(myToast);
+            bsToast.show();
+        }
+    </script>
 </body>
 
 </html>

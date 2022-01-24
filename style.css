@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-
 .header-title{
     color: rgb(7, 89, 136);
     font-family: 'Poppins', sans-serif;
@@ -18,7 +17,6 @@
         padding: 1.3em 3em;
         font-size: 12px;
         letter-spacing: 2.5px;
-        font-weight: 500;
         color: #000;
         background-color: rgba(136, 173, 243, 0.884);
         border: none;
@@ -27,7 +25,6 @@
         transition: all 0.3s ease 0s;
         cursor: pointer;
         outline: none;
-        margin: 30px;
  }       
 .conv-button:hover {
     background-color: rgb(7, 89, 136);
