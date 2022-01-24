@@ -1,16 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-.header-title{
-    color: rgb(7, 89, 136);
+.title{
+    color: rgb(27, 27, 27);
     font-family: 'Poppins', sans-serif;
-    font-weight: 800;
+    font-weight: 900;
+}
+.header-title{
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px black;
+   
 }
 .header-paragraph{
     font-family: 'Roboto', sans-serif;
-    color:rgb(88, 88, 88);
+    color:lightgrey;
     font-size: 20px;
     font-weight: 700;
+    text-shadow: 0 0 3px black, 0 0 5px black;
 }
 .conv-button{
         text-decoration: none;
@@ -120,5 +128,4 @@ input:hover{
         background: black;
         border: 1px solid white;
         transition: .5s ease-in-out;
-
 }
