@@ -106,7 +106,7 @@ text-align: center;
 font-family: 'Roboto', sans-serif;
 }
 .newsletter-content input{
-width: 650px;
+width: 300px;
 padding: 13px;
 border:none;
 border-radius: 10px;
@@ -118,16 +118,7 @@ color: white;
 font-size: 18px;
 font-weight: 400;
 }
-.btn-2{
-    text-decoration: none;
-background-color: #616161;
-color: #D9DBE1;
-padding: 10px ;
-border-radius: 10px;
-border: 1px solid #616161;
-;
-}
-.btn-2:hover,input:hover{
+input:hover{
         color: white;
         background: black;
         border: 1px solid white;
