@@ -27,6 +27,7 @@
         transition: all 0.3s ease 0s;
         cursor: pointer;
         outline: none;
+        margin: 30px;
  }       
 .conv-button:hover {
     background-color: rgb(7, 89, 136);
@@ -87,7 +88,49 @@
 .card-top .button{
     background-color: white;
 }
-.hot{
-   top: -45;
-}
 
+/*----------- newsletter style -------- */
+.newsletter-banner{
+    background-image: url(images/newsletter.jpg);
+    width: 100%;
+    cursor: pointer;
+    color: white;
+}
+.newsletter-content h1{
+font-size: 40px;
+font-family: 'Poppins', sans-serif;
+text-align: center;
+}
+.newsletter-content p{
+text-align: center;
+font-family: 'Roboto', sans-serif;
+}
+.newsletter-content input{
+width: 650px;
+padding: 13px;
+border:none;
+border-radius: 10px;
+background: rgba(156, 156, 156, 0.685);
+color: grey;
+}
+.newsletter-content input::placeholder{
+color: white;
+font-size: 18px;
+font-weight: 400;
+}
+.btn-2{
+    text-decoration: none;
+background-color: #616161;
+color: #D9DBE1;
+padding: 10px ;
+border-radius: 10px;
+border: 1px solid #616161;
+;
+}
+.btn-2:hover,input:hover{
+        color: white;
+        background: black;
+        border: 1px solid white;
+        transition: .5s ease-in-out;
+
+}
